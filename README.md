@@ -1,6 +1,33 @@
 # SockMonkey Drawing with Variables
+Add some tick marks, guidelines, dimensions, and labels (in pencil).
+* Where is the center of the monkey? (The x and y coordinates)
+* How wide is the monkey?
+* How tall is the monkey?
+* How far is each eye from the center?
+* How wide is each eye? 
+* How tall is each eye?
+* Where is the center of the mouth?
+* If I decided I wanted to change the size of the monkey’s eyes, how many values would I need to change in the code?
 
-## TODO List
+![Sock Monkey with gridlines](sockMonkey.png)
+
+Variable - a name of a memory location used to store a value. That value can change (or vary) throughout the program.
+Variables are like buckets, they hold stuff…)
+```javascript
+// Declare a variable above setup
+		
+// Initialize the variable in the setup function 
+
+// Both at the same time
+		
+// Note that x = 3 is not the same as 3 = x
+```
+
+The **camelCase** naming Convention: Variables should start with a lowercase letter! Then, if longer than one word, the second words should start with an uppercase letter (no spaces between words).
+
+When to declare/initialize? 
+
+## Programming TODO List
 1. Declare a variable called `xPos` that will hold the x coordinate of the center of the monkey.
 2. Initialize `xPos` to `200`, the x-coordinate of the center of the monkey.  Remember you need to declare and initialize variables at the top (or at least before you use them).  The computer reads the instructions from top to bottom.
 3. Replace the `200` in the head ellipse with the variable `xPos`.
@@ -15,4 +42,4 @@
 11. Repeat what you did for all of the x positions but for the y positions. This will allow the monkey to move up and down as well as left and right.
 12. Add the following line of code to the bottom of the `draw` loop. `yPos = mouseY;`
 
-When you complete the SockMonkey TODO list, submit your worksheet and the share link to your `SockMonkey` program to Google Classroom.
+When you complete the SockMonkey TODO list, submit your worksheet and get your Sock Monkey program graded.
